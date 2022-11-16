@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
+    //•Ï”éŒ¾
     public static GameManager instance;
 
     [SerializeField]
@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PlayerController player;
 
+
+    //‚±‚Á‚©‚ç“®ì‚Æ‚©--------------------------------------------------
     private void Awake()
     {
         if(instance == null)
@@ -21,13 +23,13 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
     }
-    // Start is called before the first frame update
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
